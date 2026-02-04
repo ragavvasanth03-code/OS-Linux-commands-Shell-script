@@ -323,46 +323,73 @@ sed  '/tom/s/5000/6000/' file23
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+<img width="438" height="140" alt="image" src="https://github.com/user-attachments/assets/c105cc98-f854-40ac-8317-0c1b7e9e8079" />
+
+
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+<img width="466" height="95" alt="image" src="https://github.com/user-attachments/assets/8e8f3a68-903a-4aa2-ba93-da981d340291" />
+
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+<img width="511" height="76" alt="image" src="https://github.com/user-attachments/assets/80dfd62b-7e17-4599-949f-0ae4cb7f3df4" />
+
+
 
 
 
 seq 10 
 ## OUTPUT
+<img width="510" height="244" alt="image" src="https://github.com/user-attachments/assets/90c96ea3-58e3-4cb3-b051-9a719265dd85" />
+
+
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+<img width="425" height="95" alt="image" src="https://github.com/user-attachments/assets/cc7ddb7c-5b4e-4eff-934c-0491ba66f954" />
+
+
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="425" height="72" alt="image" src="https://github.com/user-attachments/assets/0aa8b388-be44-4bae-92da-1c43b71c7ac2" />
+
+
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="422" height="112" alt="image" src="https://github.com/user-attachments/assets/72e7b45d-41c3-4e8f-a4b3-ef8d9d857746" />
+
+
+
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="419" height="95" alt="image" src="https://github.com/user-attachments/assets/8dd30466-783b-4acc-8da0-e52e32514a15" />
+
+
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="446" height="97" alt="image" src="https://github.com/user-attachments/assets/808e3a7a-db34-4290-ade8-96500b0e561e" />
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
@@ -384,6 +411,8 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="419" height="135" alt="image" src="https://github.com/user-attachments/assets/e2a20d6a-dbe2-4db2-b022-593a02aa3a65" />
+
 
 
 cat > file22
@@ -397,6 +426,9 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="420" height="156" alt="image" src="https://github.com/user-attachments/assets/5fda3b98-b127-4b5b-8272-7ddb50c81e4c" />
+
+
 
 
 
@@ -404,6 +436,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ <img width="553" height="202" alt="image" src="https://github.com/user-attachments/assets/149dc959-7d0a-46b2-b111-61f0cdc4e0ef" />
+
 
 cat < urllist.txt
 ```
@@ -420,17 +454,22 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ <img width="532" height="92" alt="image" src="https://github.com/user-attachments/assets/b6aed29a-897c-452b-8458-8626775d83b4" />
+
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="624" height="93" alt="image" src="https://github.com/user-attachments/assets/1c045568-69a6-4700-8ef7-973b39bd8a82" />
+
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
 
 
 mkdir backupdir
