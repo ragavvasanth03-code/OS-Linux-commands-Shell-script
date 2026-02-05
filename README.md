@@ -469,6 +469,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="592" height="337" alt="image" src="https://github.com/user-attachments/assets/f97ed16f-4380-4c3e-880b-880dbdd12c8b" />
+
 
 
 
@@ -480,6 +482,8 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="597" height="361" alt="image" src="https://github.com/user-attachments/assets/f49fe32d-994d-48e2-bd4b-e1c8cf5a9164" />
+
 
 
 tar -xvf backup.tar
@@ -514,6 +518,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="382" height="100" alt="image" src="https://github.com/user-attachments/assets/53b1de19-5427-4e57-a084-e5c464c33073" />
+
 
 
 cat < scriptest.sh 
