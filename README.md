@@ -488,6 +488,8 @@ tar -tvf backup.tar
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="398" height="477" alt="image" src="https://github.com/user-attachments/assets/d77ed1d0-cf19-4377-8655-e7e6cef0eaa6" />
+
 
 gzip backup.tar
 
